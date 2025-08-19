@@ -5,7 +5,7 @@ A FastAPI backend for fetching and caching stock prices, containerized with Dock
 ## Current Status
 - [x] Project structure
 - [x] Health check endpoint
-- [ ] Stock price endpoint
-- [ ] Redis caching
-- [ ] Dockerization
+- [x] Stock price endpoint
+- [x] Redis caching
+- [x] Dockerization
 - [ ] Kubernetes deployment
