@@ -4,6 +4,9 @@ import redis
 import json
 import os
 
+REDIS_HOST = os.getenv("REDIS_HOST", "localhost")
+REDIS_PORT = int(os.getenv("REDIS_PORT", "6379"))
+
 # Connect to Redis
 REDIS_HOST = os.getenv("REDIS_HOST", "localhost")
 REDIS_PORT = int(os.getenv("REDIS_PORT", "6379"))
